@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.NetDemo", "Akka.NetDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotMonitor", "IotMonitor\IotMonitor.csproj", "{5F6BBABD-718A-458E-9D1D-969F92DC2C9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotMonitor.Tests", "IotMonitor.Tests\IotMonitor.Tests.csproj", "{867C79CA-760F-4632-AD1A-BBCED0D50C18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{5F6BBABD-718A-458E-9D1D-969F92DC2C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F6BBABD-718A-458E-9D1D-969F92DC2C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F6BBABD-718A-458E-9D1D-969F92DC2C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867C79CA-760F-4632-AD1A-BBCED0D50C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867C79CA-760F-4632-AD1A-BBCED0D50C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867C79CA-760F-4632-AD1A-BBCED0D50C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867C79CA-760F-4632-AD1A-BBCED0D50C18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
