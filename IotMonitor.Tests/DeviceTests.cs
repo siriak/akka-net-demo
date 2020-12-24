@@ -1,16 +1,11 @@
 using System;
-using Akka.Actor;
-using Akka.Actor.Internal;
-using Akka.Actor.Setup;
-using Akka.Configuration;
-using Akka.TestKit;
 using Akka.TestKit.NUnit;
 using FluentAssertions;
 using NUnit.Framework;
 
 namespace IotMonitor.Tests
 {
-    public class Tests : TestKit
+    public class DeviceTests : TestKit
     {
         [Test]
         public void Device_actor_must_reply_with_empty_reading_if_no_temperature_is_known()
